@@ -159,6 +159,3 @@ results/fetch-pick-and-place/demo.gif
 - 不涉及 ROS 控制
 - 不涉及 Isaac Sim
 
-## Resume-Friendly Summary
-
-基于 Gymnasium-Robotics 和 MuJoCo 复现 Fetch 系列机械臂任务，使用 SAC + HER 搭建 sparse reward 下的目标条件强化学习训练流程；通过 `MultiInputPolicy` 处理 `observation / achieved_goal / desired_goal` 字典观测，利用 HER 对失败轨迹进行目标重标记，并记录 evaluation 曲线、success rate 和 GIF 可视化结果。实验覆盖 Reach、Push、Slide、PickAndPlace 四类任务，其中 Push 和 PickAndPlace 达到 0.90 以上成功率，Slide 任务表现出更强接触动力学难度和训练波动。
