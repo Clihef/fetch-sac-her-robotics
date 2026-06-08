@@ -1,0 +1,30 @@
+{
+  "env_id": "FetchPickAndPlace-v4",
+  "task_name": "fetch-pick-and-place",
+  "algorithm": "SAC + HER",
+  "policy": "MultiInputPolicy",
+  "total_timesteps": 800000,
+  "eval_freq": 20000,
+  "eval_episodes": 20,
+  "seed": 43,
+  "resume_from": "models/fetch-pick-and-place/sac_her_fetch_pick_and_place_500k_checkpoint.zip",
+  "initial_timesteps": 500000,
+  "resume_warmup_steps": 500,
+  "target_success_rate": 0.9,
+  "success_patience": 2,
+  "stopped_early": true,
+  "stop_reason": "success_rate >= 0.9 for 2 consecutive evaluations",
+  "model_path": "models/fetch-pick-and-place/sac_her_fetch_pick_and_place_final.zip",
+  "model_included": false,
+  "eval_metrics_csv": "results/fetch-pick-and-place/eval_metrics.csv",
+  "eval_curve_png": "results/fetch-pick-and-place/eval_curve.png",
+  "last_metrics": {
+    "mean_reward": -12.85,
+    "success_rate": 0.95,
+    "mean_episode_length": 50.0,
+    "episodes": 20,
+    "total_timesteps": 620000,
+    "elapsed_seconds": 2230.66
+  },
+  "elapsed_seconds": 2232.19
+}

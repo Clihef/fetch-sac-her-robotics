@@ -1,0 +1,6 @@
+total_timesteps,mean_reward,success_rate,mean_episode_length,episodes,elapsed_seconds
+2000,-50.0,0.0,50.0,5,22.68
+4000,-39.8,0.2,50.0,5,52.89
+6000,-48.8,0.0,50.0,5,83.67
+8000,-2.2,1.0,50.0,5,116.11
+10000,-1.6,1.0,50.0,5,147.95

@@ -1,0 +1,30 @@
+{
+  "env_id": "FetchPush-v4",
+  "task_name": "fetch-push",
+  "algorithm": "SAC + HER",
+  "policy": "MultiInputPolicy",
+  "total_timesteps": 1000000,
+  "eval_freq": 20000,
+  "eval_episodes": 20,
+  "seed": 43,
+  "resume_from": "models/fetch-push/sac_her_fetch_push_300k_checkpoint.zip",
+  "initial_timesteps": 300000,
+  "resume_warmup_steps": 500,
+  "target_success_rate": 0.9,
+  "success_patience": 2,
+  "stopped_early": true,
+  "stop_reason": "success_rate >= 0.9 for 2 consecutive evaluations",
+  "model_path": "models/fetch-push/sac_her_fetch_push_final.zip",
+  "model_included": false,
+  "eval_metrics_csv": "results/fetch-push/eval_metrics.csv",
+  "eval_curve_png": "results/fetch-push/eval_curve.png",
+  "last_metrics": {
+    "mean_reward": -11.9,
+    "success_rate": 0.9,
+    "mean_episode_length": 50.0,
+    "episodes": 20,
+    "total_timesteps": 600000,
+    "elapsed_seconds": 5122.57
+  },
+  "elapsed_seconds": 5122.9
+}

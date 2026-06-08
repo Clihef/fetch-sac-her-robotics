@@ -1,0 +1,15 @@
+{
+  "env_id": "FetchSlide-v4",
+  "task_name": "fetch-slide",
+  "model": "models/fetch-slide/sac_her_fetch_slide_final.zip",
+  "model_included": false,
+  "seed": 44,
+  "steps": 50,
+  "total_reward": -34.0,
+  "final_success": 1.0,
+  "frame_count": 51,
+  "fps": 8,
+  "gif_path": "results/fetch-slide/demo.gif",
+  "mp4_path": null,
+  "mp4_error": "FFMPEG backend was unavailable during local rendering; GIF output was generated successfully."
+}

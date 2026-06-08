@@ -1,0 +1,15 @@
+{
+  "env_id": "FetchReach-v4",
+  "task_name": "fetch-reach",
+  "model": "models/fetch-reach/sac_her_fetch_reach_final.zip",
+  "model_included": false,
+  "seed": 42,
+  "steps": 50,
+  "total_reward": -1.0,
+  "final_success": 1.0,
+  "frame_count": 51,
+  "fps": 8,
+  "gif_path": "results/fetch-reach/demo.gif",
+  "mp4_path": null,
+  "mp4_error": "FFMPEG backend was unavailable during local rendering; GIF output was generated successfully."
+}

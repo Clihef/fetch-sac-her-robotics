@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Training artifacts
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.log
+train.log
+train.err.log
+
+# Runtime output
+videos/
+tmp/
+temp/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LaTeX / personal resume files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.pdf

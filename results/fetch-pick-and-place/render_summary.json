@@ -1,0 +1,15 @@
+{
+  "env_id": "FetchPickAndPlace-v4",
+  "task_name": "fetch-pick-and-place",
+  "model": "models/fetch-pick-and-place/sac_her_fetch_pick_and_place_final.zip",
+  "model_included": false,
+  "seed": 42,
+  "steps": 50,
+  "total_reward": -13.0,
+  "final_success": 1.0,
+  "frame_count": 51,
+  "fps": 4,
+  "gif_path": "results/fetch-pick-and-place/demo.gif",
+  "mp4_path": null,
+  "mp4_error": "FFMPEG backend was unavailable during local rendering; GIF output was generated successfully."
+}

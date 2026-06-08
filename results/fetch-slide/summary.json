@@ -1,0 +1,30 @@
+{
+  "env_id": "FetchSlide-v4",
+  "task_name": "fetch-slide",
+  "algorithm": "SAC + HER",
+  "policy": "MultiInputPolicy",
+  "total_timesteps": 1200000,
+  "eval_freq": 20000,
+  "eval_episodes": 20,
+  "seed": 44,
+  "resume_from": "models/fetch-slide/sac_her_fetch_slide_800k_checkpoint.zip",
+  "initial_timesteps": 800000,
+  "resume_warmup_steps": 500,
+  "target_success_rate": 0.9,
+  "success_patience": 2,
+  "stopped_early": false,
+  "stop_reason": null,
+  "model_path": "models/fetch-slide/sac_her_fetch_slide_final.zip",
+  "model_included": false,
+  "eval_metrics_csv": "results/fetch-slide/eval_metrics.csv",
+  "eval_curve_png": "results/fetch-slide/eval_curve.png",
+  "last_metrics": {
+    "mean_reward": -30.35,
+    "success_rate": 0.7,
+    "mean_episode_length": 50.0,
+    "episodes": 20,
+    "total_timesteps": 1200000,
+    "elapsed_seconds": 5840.61
+  },
+  "elapsed_seconds": 5840.99
+}

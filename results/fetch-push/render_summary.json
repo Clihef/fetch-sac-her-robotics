@@ -1,0 +1,15 @@
+{
+  "env_id": "FetchPush-v4",
+  "task_name": "fetch-push",
+  "model": "models/fetch-push/sac_her_fetch_push_final.zip",
+  "model_included": false,
+  "seed": 41,
+  "steps": 50,
+  "total_reward": -14.0,
+  "final_success": 1.0,
+  "frame_count": 51,
+  "fps": 4,
+  "gif_path": "results/fetch-push/demo.gif",
+  "mp4_path": null,
+  "mp4_error": "FFMPEG backend was unavailable during local rendering; GIF output was generated successfully."
+}
